@@ -1,0 +1,38 @@
+gitignore
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Cache y bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bases de datos locales
+*.db
+*.sqlite3
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
